@@ -1,3 +1,4 @@
+// Tarea calculadora:
 let num1= parseInt(prompt("digite el primer número"))
 let num2= parseInt(prompt("digite el segundo número"))
 
@@ -17,12 +18,12 @@ function division (num1, num2){
     let division =  num1 / num2;
     return console.log(`la división entre ${num1} y ${num2} es ${division}`);
 }
-function modulo(num1, num2){
-    let modulo = num1%num2;
-    return console.log(`el módulo entre ${num1} y ${num2} es ${modulo}`)
+function potencia(num1, num2){
+    let modulo = num1^num2;
+    return console.log(`${num1} elevado a ${num2} es ${modulo}`)
 }
 sumar(num1, num2);
 resta(num1,num2);
 multiplicacion(num1, num2);
 division(num1, num2);
-modulo(num1, num2);
+potencia(num1, num2);
